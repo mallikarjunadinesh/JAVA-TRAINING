@@ -1,0 +1,13 @@
+public class MultiplyFloatingNumbers {
+    public static void main(String[] args) {
+       
+        float num1 = 3.5f;
+        float num2 = 2.5f;
+
+        
+        float result = num1 * num2;
+
+        // Display the result
+        System.out.println("The product of " + num1 + " and " + num2 + " is: " + result);
+    }
+}
