@@ -1,0 +1,24 @@
+class Movie {
+
+    private static int Movieticket = 0;
+
+
+    public Movie() {
+
+        Movieticket++;
+    }
+
+
+    public static void Movieticket() {
+        System.out.println("Total number of Tickets: " + Movieticket);
+    }
+
+    public static void main(String[] args) {
+        // Create some Person objects
+        Movie Movie1 = new Movie();
+        Movie Movie2 = new Movie();
+        Movie Movie3 = new Movie();
+
+        Movie.Movieticket();
+    }
+}
