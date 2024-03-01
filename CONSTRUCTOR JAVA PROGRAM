@@ -1,0 +1,33 @@
+class College {
+    String collegeName;
+
+
+    public College(String name) {
+        this.collegeName = name;
+    }
+
+    void place() {
+        System.out.println("Placement details");
+    }
+}
+
+class Student extends College {
+    String studentName = "Pavan";
+
+   
+    public Student(String collegeName) {
+        
+        super(collegeName);
+    }
+
+    public static void main(String[] args) {
+        
+        Student p = new Student("JIT");
+
+    
+        p.place();
+
+        
+        System.out.println("I study in " + p.collegeName);
+    }
+}
