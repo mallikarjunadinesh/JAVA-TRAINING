@@ -1,0 +1,7 @@
+class main {
+    public static void main(String[] args) {
+        String s = "143";
+        int converteds = Integer.parseInt(s);
+        System.out.println(converteds);
+    }
+}
